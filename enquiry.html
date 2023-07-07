@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S-Cam - Service Enquiry</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #form-container {
+            position: relative;
+            height: 100vh; /* Set the height of the container to the full viewport height */
+            overflow: auto; /* Enable scrolling within the container */
+        }
+
+        #form-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,8 +38,9 @@
 
     <section id="enquiry">
         <h2>Service Enquiry</h2>
-        <p>To make a service enquiry, please fill out the form below:</p>
-        <iframe src="https://forms.gle/6nRdyzK645M6p2UA8" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <div id="form-container">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdK2BK7Oz9h5EGPPAZZLujYFnooyRP4N88-j6ayb_XXXXXXXXX/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
     </section>
 
     <footer>
