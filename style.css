@@ -21,7 +21,7 @@ header {
     max-width: 100%; /* Ensure the image does not exceed the container's width */
     height: auto; /* Preserve the image's aspect ratio */
     display: block; /* Ensure the image is displayed as a block element */
-    margin-bottom: 10px; /* Add spacing between the image and the header text */
+    margin-bottom: 1px; /* Add spacing between the image and the header text */
 }
 
 
