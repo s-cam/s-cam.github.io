@@ -23,6 +23,32 @@ header {
     display: block; /* Ensure the image is displayed as a block element */
     margin-bottom: 1px; /* Add spacing between the image and the header text */
 }
+.image-container {
+  position: relative;
+}
+
+.navigation-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navigation-buttons li {
+  margin: 0 10px;
+}
+
+.navigation-buttons li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
 
 
 header .logo {
