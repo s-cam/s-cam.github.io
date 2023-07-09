@@ -1,84 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S-Cam - CCTV Sales and Services</title>
-    <link rel="stylesheet" href="style.css">
+    <title>S-Cam Company</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-color: #222;
+            font-family: Arial, sans-serif;
         }
-
-        .image-container {
-            position: relative;
+        
+        header {
+            background-image: url("S-Cam.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
         }
-
-        .navigation-buttons {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            list-style: none;
-            padding: 0;
+        
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
             margin: 0;
+            padding: 0;
         }
-
-        .navigation-buttons li {
-            margin: 0 10px;
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
         }
-
-        .navigation-buttons li a {
+        
+        nav ul li a {
             color: #fff;
             text-decoration: none;
-            padding: 8px 16px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 5px;
+            padding: 5px 10px;
         }
-
-        .social-media-buttons {
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
+        
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
         }
-
-        .social-media-buttons li {
-            margin: 0 10px;
-        }
-
-        .social-media-buttons li a {
+        
+        footer a {
             color: #fff;
             text-decoration: none;
-            font-size: 20px;
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="image-container">
-        <img src="s-cam.png" alt="Background Image">
-        <ul class="navigation-buttons">
-            <li><a href="#about">About</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-        </ul>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Rest of your content -->
+    <section id="home">
+        <!-- Content for the Home section goes here -->
+        <h1>Welcome to S-Cam Company</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
 
-    <ul class="social-media-buttons">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-    </ul>
+    <section id="services">
+        <!-- Content for the Services section goes here -->
+        <h2>Our Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
 
-    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <section id="products">
+        <!-- Content for the Products section goes here -->
+        <h2>Our Products</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+
+    <section id="contact">
+        <!-- Content for the Contact section goes here -->
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+
+    <footer>
+        <a href="https://instagram.com/s_cam2019?igshid=MzNlNGNkZWQ4Mg=="><img src="LinkedIn.webp" alt="LinkedIn"></a>
+        <a href="https://www.linkedin.com/in/s-cam-58654026a"><img src="instagram-icon.webp" alt="Instagram"></a>
+    </footer>
 </body>
 </html>
