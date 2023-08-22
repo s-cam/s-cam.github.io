@@ -37,7 +37,7 @@ function smoothScroll(target) {
 }
 
 // Function to handle scrolling animation for cards
-function moveCardsOnScroll() {
+/*function moveCardsOnScroll() {
   const cards = document.querySelectorAll('.product');
   
   cards.forEach(product => {
@@ -48,7 +48,17 @@ function moveCardsOnScroll() {
     
     product.style.transform = `translateX(${cardMovement}px)`;
   });
-}
+}*/
+
+// Get the button element
+const scrollButton = document.getElementById('scrollButton');
+
+// Add a click event listener to the button
+scrollButton.addEventListener('click', () => {
+    // Scroll the container to the right (or left, if desired)
+    const container = document.querySelector('.containers');
+    container.scrollLeft += 300; // Adjust the value for the scrolling distance
+});
 
 // Add a debounce function to optimize scroll performance
 function debounce(func, delay) {
