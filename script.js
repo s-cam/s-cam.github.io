@@ -32,3 +32,20 @@ function init() {
 
 // Initialize the script when the DOM is ready
 document.addEventListener('DOMContentLoaded', init);
+
+
+// const cards = document.querySelectorAll('.product');
+
+// function moveCardsOnScroll() {
+//   cards.forEach(product => {
+//     const scrollPosition = window.scrollY;
+//     const cardPosition = product.offsetTop;
+//     const distanceFromTop = cardPosition - scrollPosition;
+//     const cardMovement = distanceFromTop * 0.3; // Adjust the speed of movement (0.3 is just an example)
+
+//     product.style.transform = `translateX(${cardMovement}px)`;
+//   });
+// }
+
+// window.addEventListener('scroll', moveCardsOnScroll);
+

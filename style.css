@@ -8,7 +8,7 @@
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+/*    background-color: #f0f0f0;*/
     color: #333;
 }
 .inquiry-button {
@@ -27,7 +27,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #fff;
+/*    background-color: #fff;*/
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -39,7 +39,9 @@ nav {
 }
 
 .logo img {
-    max-height: 50px;
+    max-height: 90px;
+    width: 90px;
+    transform: translate(-20%, -20%);
 }
 
 .menu ul {
@@ -65,7 +67,7 @@ nav {
 /* Main content styles */
 section {
     padding: 50px;
-    background-color: #fff;
+/*    background-color: #fff;*/
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -84,7 +86,7 @@ section {
     margin-bottom: 40px;
 }
 
-.service img {
+/*.service img {
     max-width: 200px;
     margin-bottom: 20px;
 }
@@ -96,7 +98,7 @@ section {
 
 .service p {
     color: #777;
-}
+}*/
 
 .product {
     text-align: center;
@@ -129,4 +131,221 @@ footer a {
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
+}
+
+
+
+
+
+body, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.start1, .start2{
+     text-align: center;
+     font-family: Courier, monospace;
+/*     color: #FFD700;*/
+}
+
+.start1{
+    font-size: 40px;
+}
+
+.start2{
+    font-size: 30px;
+}
+
+.start1{
+  /*display: inline-block;
+  padding: 10px;
+  background-color: dimgray;*/
+  color: #FFD700;
+  transition: color 0.3s ease; /* Transition the background color change */
+}
+
+.start1:hover {
+  color: #00FA9A; /* Change color on hover */
+}
+
+.start2{
+  /*display: inline-block;
+  padding: 10px;
+  background-color: dimgray;*/
+  color: #FFD700;
+  transition: color 0.3s ease; /* Transition the background color change */
+}
+
+.start2:hover {
+  color: #00FA9A; /* Change color on hover */
+}
+
+
+.logo {
+  position: absolute;
+  top: 20px; /* Adjust this value to set the distance from the top of the page */
+  left: 20px;
+}
+
+.logo img {
+  width: 100px; /* Adjust this value to set the desired width */
+  height: 100px; /* Maintain the aspect ratio of the logo */
+ }
+
+
+/* Style the navigation bar */
+.navbar {
+  padding: 20px;
+  margin-left: 160px;
+}
+
+/* Style the navigation bar list items and links */
+.navbar ul {
+  list-style:none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  text-decoration: underline;
+  font-size: 20px;
+  color: Tomato;
+}
+
+.head1
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.head2
+{
+   
+  background-image: url('scam_finalbg.webp'); /* Replace with the path to your image */
+  background-size: cover; /* Scale the image to cover the entire header */
+  background-position: center center; 
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  /*width: 1280px;
+  height: 380px;*/
+/*  height: 150vh; /* Set the height as needed */*/
+ 
+}
+
+
+
+#services{
+ background-color: #141414;
+}
+
+/*.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}*/
+
+
+
+.product2 ,.service{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  max-width: 400px;
+  max-height: 400px;
+  flex: 0 0 auto;
+  /*width: 100px; 
+  height: 200px; */
+  background-color: #f0f0f0;
+  margin-right: 10px; /* Adjust spacing between cards */
+  background-size: cover;
+  background-position: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.product2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.service:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+}
+
+/* Add some padding inside the card container */
+.container1, .s2 {
+  padding: 2px 16px;
+  background-color: #FFFFFF;
+}
+.image1 {
+  border-radius: 5px 5px 0 0;
+/*  width: 100;*/
+  width: 100%; /* Set a fixed width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra spacing below images */
+  margin-bottom: 10px;
+}
+/*#products{
+    overflow-x: scroll;
+}*/
+
+.containerp , .containers{
+    display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  padding: 10px;
+  /* Optional: Hide horizontal scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/*iframe{
+    width: 100%;
+}*/
+
+.font{
+  font-family: 'Helvetica Neue', monospace;
+  font-weight: 900; /* Options: normal, bold, bolder, lighter, 100, 200, ..., 900 */
+  font-style: bold; /* Options: normal, italic, oblique */
+
+}
+
+.s2 {
+  padding: 2px 16px;
+  background-color: #FFFFFF;
+}
+
+
+#bgcolor{
+    background-color: #141414;
+}
+
+.section-header, .containera, .containerc, .font, .loc, .info
+{
+    color: #FFFFFF;
+}
+
+.containera{
+     word-spacing: 7px;
+     line-height: 1.5;
+}
+
+#map{
+display: flex;
+}
+
+.mapdiv, .info{
+     flex: 1;
+}
+
+.info{
+    margin-left: 30px;
+    margin-top: 160px;
+}
+
+.navbar{
+    font-size: 20px;
+  
 }
