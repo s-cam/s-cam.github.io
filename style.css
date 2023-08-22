@@ -10,26 +10,7 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
 }
-.containerp, .containers {
-    display: flex;
-    overflow-x: hidden; /* Hide the horizontal scrollbar */
-    width: 100%;
-    padding: 10px;
-    justify-content: center; /* Center align the cards horizontally */
 
-#scrollButton {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#scrollButton:hover {
-    background-color: #555;
-}
 .inquiry-button {
   /* Add your inquiry button styles here */
 }
@@ -110,4 +91,3 @@ footer a {
 /* Additional styles you provided */
 
 /* Add your additional styles here */
-
