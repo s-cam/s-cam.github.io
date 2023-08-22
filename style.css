@@ -8,344 +8,87 @@
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
-/*    background-color: #f0f0f0;*/
     color: #333;
 }
+
 .inquiry-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  /* Add your inquiry button styles here */
 }
 
 .inquiry-button:hover {
-  background-color: #555;
+  /* Add your inquiry button hover styles here */
 }
 
 /* Header styles */
 header {
-/*    background-color: #fff;*/
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Navigation menu styles */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* Add your navigation styles here */
 }
 
 .logo img {
-    max-height: 90px;
-    width: 90px;
-    transform: translate(-20%, -20%);
+    /* Add your logo image styles here */
 }
 
 .menu ul {
-    list-style-type: none;
+    /* Add your menu ul styles here */
 }
 
 .menu ul li {
-    display: inline-block;
-    margin-right: 20px;
+    /* Add your menu li styles here */
 }
 
 .menu ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s;
+    /* Add your menu link styles here */
 }
 
 .menu ul li a:hover {
-    color: #888;
+    /* Add your menu link hover styles here */
 }
 
 /* Main content styles */
 section {
-    padding: 50px;
-/*    background-color: #fff;*/
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add your section styles here */
 }
 
 .section-header h2 {
-    margin-bottom: 20px;
+    /* Add your section header styles here */
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    /* Add your container styles here */
 }
 
-.service {
-    text-align: center;
-    margin-bottom: 40px;
+.service, .product {
+    /* Add your service and product styles here */
 }
 
-/*.service img {
-    max-width: 200px;
-    margin-bottom: 20px;
+.service img, .product img {
+    /* Add your image styles here */
 }
 
-.service h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
+.service h3, .product h3 {
+    /* Add your heading styles here */
 }
 
-.service p {
-    color: #777;
-}*/
-
-.product {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.product img {
-    max-width: 200px;
-    margin-bottom: 20px;
-}
-
-.product h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.product p {
-    color: #777;
+.service p, .product p {
+    /* Add your paragraph styles here */
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
+    /* Add your footer styles here */
 }
 
 footer a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
+    /* Add your footer link styles here */
 }
 
+/* Additional styles you provided */
 
+/* Add your additional styles here */
 
-
-
-body, h1, h2 {
-  margin: 0;
-  padding: 0;
-}
-
-.start1, .start2{
-     text-align: center;
-     font-family: Courier, monospace;
-/*     color: #FFD700;*/
-}
-
-.start1{
-    font-size: 40px;
-}
-
-.start2{
-    font-size: 30px;
-}
-
-.start1{
-  /*display: inline-block;
-  padding: 10px;
-  background-color: dimgray;*/
-  color: #FFD700;
-  transition: color 0.3s ease; /* Transition the background color change */
-}
-
-.start1:hover {
-  color: #00FA9A; /* Change color on hover */
-}
-
-.start2{
-  /*display: inline-block;
-  padding: 10px;
-  background-color: dimgray;*/
-  color: #FFD700;
-  transition: color 0.3s ease; /* Transition the background color change */
-}
-
-.start2:hover {
-  color: #00FA9A; /* Change color on hover */
-}
-
-
-.logo {
-  position: absolute;
-  top: 20px; /* Adjust this value to set the distance from the top of the page */
-  left: 20px;
-}
-
-.logo img {
-  width: 100px; /* Adjust this value to set the desired width */
-  height: 100px; /* Maintain the aspect ratio of the logo */
- }
-
-
-/* Style the navigation bar */
-.navbar {
-  padding: 20px;
-  margin-left: 160px;
-}
-
-/* Style the navigation bar list items and links */
-.navbar ul {
-  list-style:none;
-}
-
-.navbar li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.navbar a {
-  text-decoration: underline;
-  font-size: 20px;
-  color: Tomato;
-}
-
-.head1
-{
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.head2
-{
-   
-  background-image: url('scam_finalbg.webp'); /* Replace with the path to your image */
-  background-size: cover; /* Scale the image to cover the entire header */
-  background-position: center center; 
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  /*width: 1280px;
-  height: 380px;*/
-/*  height: 150vh; /* Set the height as needed */*/
- 
-}
-
-
-
-#services{
- background-color: #141414;
-}
-
-/*.container {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
-}*/
-
-
-
-.product2 ,.service{
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px;
-  max-width: 400px;
-  max-height: 400px;
-  flex: 0 0 auto;
-  /*width: 100px; 
-  height: 200px; */
-  background-color: #f0f0f0;
-  margin-right: 10px; /* Adjust spacing between cards */
-  background-size: cover;
-  background-position: center;
-}
-
-/* On mouse-over, add a deeper shadow */
-.product2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.service:hover{
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
-}
-
-/* Add some padding inside the card container */
-.container1, .s2 {
-  padding: 2px 16px;
-  background-color: #FFFFFF;
-}
-.image1 {
-  border-radius: 5px 5px 0 0;
-/*  width: 100;*/
-  width: 100%; /* Set a fixed width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Remove extra spacing below images */
-  margin-bottom: 10px;
-}
-/*#products{
-    overflow-x: scroll;
-}*/
-
-.containerp , .containers{
-    display: flex;
-  overflow-x: scroll;
-  width: 100%;
-  padding: 10px;
-  /* Optional: Hide horizontal scrollbar */
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-/*iframe{
-    width: 100%;
-}*/
-
-.font{
-  font-family: 'Helvetica Neue', monospace;
-  font-weight: 900; /* Options: normal, bold, bolder, lighter, 100, 200, ..., 900 */
-  font-style: bold; /* Options: normal, italic, oblique */
-
-}
-
-.s2 {
-  padding: 2px 16px;
-  background-color: #FFFFFF;
-}
-
-
-#bgcolor{
-    background-color: #141414;
-}
-
-.section-header, .containera, .containerc, .font, .loc, .info
-{
-    color: #FFFFFF;
-}
-
-.containera{
-     word-spacing: 7px;
-     line-height: 1.5;
-}
-
-#map{
-display: flex;
-}
-
-.mapdiv, .info{
-     flex: 1;
-}
-
-.info{
-    margin-left: 30px;
-    margin-top: 160px;
-}
-
-.navbar{
-    font-size: 20px;
-  
-}
