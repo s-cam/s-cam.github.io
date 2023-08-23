@@ -48,4 +48,3 @@ document.addEventListener('DOMContentLoaded', init);
 // }
 
 // window.addEventListener('scroll', moveCardsOnScroll);
-
